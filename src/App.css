@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+
+body {
+  background-image: url("https://e0.pxfuel.com/wallpapers/82/774/desktop-wallpaper-white-aesthetic-laptop-white-aesthetic-laptop-background-on-bat-black-and-white-aesthetic-lapop.jpg");
+  background-position: center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.text-center {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 35px;
+  margin: 0 0 80px 0;
+  display: block;
+  /* text-align: center; */
+}
+
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.89);
+  border-radius: 3px;
+  padding: 70px 100px;
+}
+
+.input-container {
+  position: relative;
+  /* margin-bottom: 25px; */
+}
+
+.input-container label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 16px;
+  color: #fff;
+  pointer-event: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-container input {
+  border: 0;
+  border-bottom: 1px solid #555;
+  background: transparent;
+  width: 100%;
+  padding: 1px 0 5px 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.input-container input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #e74c3c;
+}
+
+.btn {
+  color: #fff;
+  background-color: #e74c3c;
+  outline: none;
+  border: 0;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #e56c5f;
+}
+
+.btn-2{
+  margin-left: 10px;
+}
+
+.input-container input:focus~label,
+.input-container input:valid~label {
+  top: -20px;
+  font-size: 12px;
+}
+
+table{
+  color: #fff;
+  width: 100%;
+  border: 3px solid #535252;
+  border-radius: 10px;
+
+}
+
+table tr , th, td{
+  padding: 10px 20px;
+  text-align: center;
+  border: 3px solid #535252;
+}

@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "Keval",
+      "author": "Ramoliya",
+      "id": 1
+    },
+    {
+      "title": "Darshil",
+      "author": "Chodvadiya",
+      "id": 2
+    },
+    {
+      "title": "Div",
+      "author": "Kakadiya",
+      "id": 3
+    }
+  ]
+}
